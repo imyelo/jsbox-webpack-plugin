@@ -15,5 +15,14 @@
   },
   "bugs": {
     "url": "https://github.com/imyelo/jsbox-daily-checkin/issues"
+  },
+  "dependencies": {
+    "form-data": "^3.0.0",
+    "fs-extra": "^8.1.0",
+    "get-stream": "^5.1.0",
+    "got": "^9.6.0",
+    "gulp": "^4.0.2",
+    "gulp-zip": "^5.0.1",
+    "vinyl-to-stream": "^1.0.1"
   }
 }
