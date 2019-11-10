@@ -1,0 +1,19 @@
+{
+  "name": "jsbox-webpack-plugin",
+  "version": "0.0.0",
+  "description": "",
+  "author": "yelo <zhihuzeye@gmail.com>",
+  "homepage": "https://github.com/imyelo/jsbox-daily-checkin/tree/master/packages/jsbox-webpack-plugin#readme",
+  "license": "MIT",
+  "main": "lib",
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/imyelo/jsbox-daily-checkin.git"
+  },
+  "bugs": {
+    "url": "https://github.com/imyelo/jsbox-daily-checkin/issues"
+  }
+}
