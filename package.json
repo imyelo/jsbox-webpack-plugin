@@ -1,6 +1,6 @@
 {
   "name": "jsbox-webpack-plugin",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": ":package: JSBox Apps meets Webpack",
   "author": "yelo <zhihuzeye@gmail.com>",
   "homepage": "https://github.com/imyelo/jsbox-webpack-plugin",
