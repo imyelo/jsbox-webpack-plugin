@@ -1,10 +1,10 @@
 {
   "name": "jsbox-webpack-plugin",
   "version": "0.0.0",
-  "description": "",
+  "description": ":package: JSBox Apps meets Webpack",
   "author": "yelo <zhihuzeye@gmail.com>",
-  "homepage": "https://github.com/imyelo/jsbox-daily-checkin/tree/master/packages/jsbox-webpack-plugin#readme",
-  "license": "MIT",
+  "homepage": "https://github.com/imyelo/jsbox-webpack-plugin",
+  "license": "Apache-2.0",
   "main": "lib",
   "files": [
     "lib"
@@ -14,10 +14,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/imyelo/jsbox-daily-checkin.git"
+    "url": "git+https://github.com/imyelo/jsbox-webpack-plugin.git"
   },
   "bugs": {
-    "url": "https://github.com/imyelo/jsbox-daily-checkin/issues"
+    "url": "https://github.com/imyelo/jsbox-webpack-plugin/issues"
   },
   "dependencies": {
     "form-data": "^3.0.0",
