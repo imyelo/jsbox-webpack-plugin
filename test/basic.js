@@ -24,3 +24,7 @@ test('basic', async (t) => {
   t.true(await equalZipFiles(files, mfsu.buffer('/.output/my-jsbox-app.box')))
   t.snapshot(humanizeFiles(files))
 })
+
+test.skip('upload', async (t) => {
+  // TODO
+})
