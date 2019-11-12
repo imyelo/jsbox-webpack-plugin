@@ -18,9 +18,9 @@ test('basic', async (t) => {
   await compile()
 
   const files = mfsu.all({
-    exclude: ['/.output/dist.box'],
+    exclude: ['/.output/my-jsbox-app.box'],
   })
 
-  t.true(await equalZipFiles(files, mfsu.buffer('/.output/dist.box')))
+  t.true(await equalZipFiles(files, mfsu.buffer('/.output/my-jsbox-app.box')))
   t.snapshot(humanizeFiles(files))
 })
