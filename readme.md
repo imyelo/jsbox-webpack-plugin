@@ -27,5 +27,63 @@ module.exports = {
 }
 ```
 
+## Options
+### copy
+Arguments:
+- `copy: [fromPath: string]`
+- `copy: [{ fromPath: string, toRelativePath: string }]`
+
+Default Value: `[]`
+
+Basic Example:
+
+```javascript
+// ...
+    new JSBoxPlugin({
+      copy: [
+        'beta.json',
+      ],
+    }),
+// ...
+```
+
+In case of copying files out of the context:
+```javascript
+const { resolve } = require('path')
+// ...
+    new JSBoxPlugin({
+      copy: [
+        [resolve(__dirname, 'README.md'), 'README.md],
+      ],
+    }),
+// ...
+```
+
+### upload
+Arguments:
+- `upload: boolean`
+
+Default Value: `false`
+
+**Important:** Should be used with env variable `JSBOX_HOST`
+
+Example:
+
+```javascript
+// ...
+    new JSBoxPlugin({
+      upload: true,
+    }),
+// ...
+```
+
+and then
+
+```bash
+JSBOX_HOST=192.168.1.10 npx webpack
+```
+
+### upload
+
 ## License
 MIT &copy; yelo, 2019 - present
