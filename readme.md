@@ -83,7 +83,5 @@ and then
 JSBOX_HOST=192.168.1.10 npx webpack
 ```
 
-### upload
-
 ## License
 MIT &copy; yelo, 2019 - present
