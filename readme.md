@@ -1,6 +1,6 @@
-# `jsbox-webpack-plugin`
+# JSBox Webpack Plugin
 
-> TODO: description
+> :package: JSBox meets Webpack
 
 ## Usage
 
