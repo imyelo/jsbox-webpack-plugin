@@ -13,6 +13,9 @@
     "test": "ava test/*.js",
     "release": "np"
   },
+  "publishConfig":{
+    "registry": "https://registry.npmjs.com/"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/imyelo/jsbox-webpack-plugin.git"
