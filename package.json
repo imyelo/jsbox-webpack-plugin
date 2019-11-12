@@ -1,6 +1,6 @@
 {
   "name": "jsbox-webpack-plugin",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": ":package: JSBox Apps meets Webpack",
   "author": "yelo <zhihuzeye@gmail.com>",
   "homepage": "https://github.com/imyelo/jsbox-webpack-plugin",
@@ -13,7 +13,7 @@
     "test": "ava test/*.js",
     "release": "np"
   },
-  "publishConfig":{
+  "publishConfig": {
     "registry": "https://registry.npmjs.com/"
   },
   "repository": {
