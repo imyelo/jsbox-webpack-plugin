@@ -1,1 +1,1 @@
-require('./cow')()
+require('./greating')()
