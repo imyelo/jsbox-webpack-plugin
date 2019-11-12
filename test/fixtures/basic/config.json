@@ -1,3 +1,5 @@
 {
-  "name": "my-jsbox-app"
+  "info": {
+    "name": "my-jsbox-app"
+  }
 }
