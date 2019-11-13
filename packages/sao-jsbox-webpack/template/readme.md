@@ -1,0 +1,2 @@
+# <%= humanizeName %>
+> <%= description %>

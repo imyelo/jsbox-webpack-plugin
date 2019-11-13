@@ -1,0 +1,30 @@
+{
+  "name": "sao-jsbox-webpack",
+  "version": "0.0.0",
+  "description": ":truck: Scaffold out a JSBox Apps with Webpack Integration",
+  "author": "yelo <zhihuzeye@gmail.com>",
+  "homepage": "https://github.com/imyelo/jsbox-webpack-plugin/tree/master/packages/sao-jsbox-webpack#readme",
+  "license": "Apache-2.0",
+  "files": [
+    "saofile.js",
+    "template"
+  ],
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/imyelo/jsbox-webpack-plugin.git"
+  },
+  "scripts": {
+    "test": "ava"
+  },
+  "bugs": {
+    "url": "https://github.com/imyelo/jsbox-webpack-plugin/issues"
+  },
+  "devDependencies": {
+    "ava": "^2.4.0",
+    "istextorbinary": "^2.6.0",
+    "sao": "^1.7.0"
+  }
+}
