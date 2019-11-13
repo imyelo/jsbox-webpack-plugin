@@ -3,7 +3,7 @@
 > :package: JSBox meets Webpack
 
 ## Get Started
-We have prepared a scaffolding tool (thanks to [saojs](https://github.com/saojs/sao)) for you, to help you start using Webpack to develop JSBox applications more efficiently.
+We have prepared a [scaffolding tool](https://github.com/imyelo/jsbox-webpack-plugin/tree/master/packages/sao-jsbox-webpack) (thanks to [saojs](https://github.com/saojs/sao)) for you, to help you start using Webpack to develop JSBox applications more efficiently.
 
 *Please ensure that your NPM client is ready, which should be installed with Node.js.*
 
