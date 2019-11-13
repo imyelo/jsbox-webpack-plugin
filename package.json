@@ -10,8 +10,7 @@
     "lib"
   ],
   "scripts": {
-    "test": "ava test/*.js",
-    "release": "np"
+    "test": "ava test/*.js"
   },
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
