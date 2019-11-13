@@ -15,12 +15,12 @@ npx sao sao-jsbox-webpack
 
 Then everything out of the box is ready for you. :tada:
 
-GLHF :wink:
-
 
 ## Usage
 1. Set your iPhone's IP (you can find it in [JSBox's Setting Tab](https://docs.xteko.com/#/README?id=%e5%a6%82%e4%bd%95%e5%9c%a8-jsbox-%e9%87%8c%e8%bf%90%e8%a1%8c%e4%bb%a3%e7%a0%81)) into the environment variable `JSBOX_HOST`.
 2. Run `npm start` (development mode) / `npm run build` (production mode) to compiling the codes, and the assembled box file would be sync to your phone automatically.
+
+GLHF :wink:
 
 
 ## Plugin Usage
@@ -46,6 +46,7 @@ module.exports = {
   mode: isProduction ? 'production' : 'none',
 }
 ```
+
 
 ## Plugin Options
 ### copy
@@ -102,6 +103,11 @@ and then
 ```bash
 JSBOX_HOST=192.168.1.10 npx webpack
 ```
+
+
+## Who's using?
+- [jsbox-daily-checkin](https://github.com/imyelo/jsbox-daily-checkin)
+
 
 ## License
 Apache-2.0 &copy; yelo, 2019 - present
