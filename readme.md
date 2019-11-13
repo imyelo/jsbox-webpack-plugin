@@ -18,7 +18,7 @@ Then everything out of the box is ready for you. :tada:
 
 ## Usage
 1. Set your iPhone's IP (you can find it in [JSBox's Setting Tab](https://docs.xteko.com/#/README?id=%e5%a6%82%e4%bd%95%e5%9c%a8-jsbox-%e9%87%8c%e8%bf%90%e8%a1%8c%e4%bb%a3%e7%a0%81)) into the environment variable `JSBOX_HOST`.
-2. Run `npm start` (development mode) / `npm run build` (production mode) to compiling the codes, and the assembled box file would be sync to your phone automatically.
+2. Run `npm start` (development mode) / `npm run build` (production mode) to compiling the codes, and the assembled box file would be sync to your phone automatically while the [`upload` option](#upload) is turned on.
 
 GLHF :wink:
 
@@ -28,8 +28,6 @@ GLHF :wink:
 const { resolve } = require('path')
 const JSBoxPlugin = require('jsbox-webpack-plugin')
 
-const isProduction = process.env.NODE_ENV === 'production'
-
 module.exports = {
   context: resolve('src'),
   entry: './scripts/main.js',
@@ -37,13 +35,9 @@ module.exports = {
     path: resolve(`dist`),
     filename: 'scripts/main.js',
   },
-  resolve: {
-    symlinks: true,
-  },
   plugins: [
     new JSBoxPlugin(/* options */),
   ],
-  mode: isProduction ? 'production' : 'none',
 }
 ```
 
@@ -102,6 +96,23 @@ and then
 
 ```bash
 JSBOX_HOST=192.168.1.10 npx webpack
+```
+
+### uploadTimeout
+Arguments:
+- `upload: number`
+
+Default Value: `10 * 1000` (ms)
+
+Example:
+
+```javascript
+// ...
+    new JSBoxPlugin({
+      upload: true,
+      uploadTimeout: 2 * 1000,
+    }),
+// ...
 ```
 
 
