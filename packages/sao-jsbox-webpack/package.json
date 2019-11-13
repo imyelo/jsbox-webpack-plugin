@@ -1,6 +1,6 @@
 {
   "name": "sao-jsbox-webpack",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": ":truck: Scaffold out a JSBox Apps with Webpack Integration",
   "author": "yelo <zhihuzeye@gmail.com>",
   "homepage": "https://github.com/imyelo/jsbox-webpack-plugin/tree/master/packages/sao-jsbox-webpack#readme",
