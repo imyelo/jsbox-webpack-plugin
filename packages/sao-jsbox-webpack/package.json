@@ -17,6 +17,7 @@
     "url": "git+https://github.com/imyelo/jsbox-webpack-plugin.git"
   },
   "scripts": {
+    "release": "np",
     "test": "ava"
   },
   "bugs": {
@@ -25,6 +26,7 @@
   "devDependencies": {
     "ava": "^2.4.0",
     "istextorbinary": "^2.6.0",
+    "np": "^5.1.3",
     "sao": "^1.7.0"
   }
 }
