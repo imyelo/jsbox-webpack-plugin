@@ -1,5 +1,9 @@
 # JSBox Webpack Plugin
 
+[![license](https://img.shields.io/npm/l/jsbox-webpack-plugin.svg?style=flat-square)](./license)
+[![npm](https://img.shields.io/npm/v/jsbox-webpack-plugin.svg?style=flat-square)](https://www.npmjs.com/package/jsbox-webpack-plugin)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
+
 > :package: JSBox meets Webpack
 
 ## Get Started
