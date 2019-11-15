@@ -1,6 +1,6 @@
 # sao-jsbox-webpack
 
-[![license](https://img.shields.io/github/license/imyelo/sao-jsbox-webpack.svg?style=flat-square)](./LICENSE)
+[![license](https://img.shields.io/npm/l/sao-jsbox-webpack.svg?style=flat-square)](./license)
 [![npm](https://img.shields.io/npm/v/sao-jsbox-webpack.svg?style=flat-square)](https://www.npmjs.com/package/sao-jsbox-webpack)
 [![SAO](https://img.shields.io/badge/%E2%9A%94%EF%B8%8F%20SAO-jsbox--webpack-ff69b4.svg?style=flat-square)](https://sao.js.org/)
 
