@@ -50,9 +50,8 @@ module.exports = {
     },
   ],
   async completed () {
-    console.log(this.answers)
-    // this.gitInit()
-    // await this.npmInstall()
-    // this.showProjectTips()
+    this.gitInit()
+    await this.npmInstall()
+    this.showProjectTips()
   },
 }
